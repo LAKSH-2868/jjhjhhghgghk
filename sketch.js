@@ -26,7 +26,6 @@ function preload(){
 function setup(){
     createCanvas(displayWidth*8,displayHeight);
     marioSp = createSprite(100,800/2);
-    m111.addImage(mask);
     marioSp.scale = 2;
     marioSp.addAnimation("marioo",mario2);
     marioSp.addAnimation("mario",mario);
